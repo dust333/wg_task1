@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wargaming"
+version = "0.1.0"
+description = ""
+authors = ["Roman Balyuk <rbalyuk@ptsecurity.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.9.8"
+pytest = "8.3.4"
+beautifulsoup4 = "^4.12.3"
+assertpy = "1.1"
+requests = "2.32.3"
+python-dotenv = "1.0.1"
+allure-pytest = "2.13.5"
+
+[tool.poetry.group.dev.dependencies]
+black="25.1.0"
+ruff="0.9.4"
+flake8="7.1.1"
+isort="6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

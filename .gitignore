@@ -1,0 +1,17 @@
+*~
+*.log
+*.pyc
+*cpython-32.pyc
+__pycache__
+*.cache
+.idea
+.venv/*
+.venv*
+.pytest_cache
+*.lib
+*logs*
+.idea/
+.DS_Store
+.pytest_cache/
+__pycache__/
+result/
