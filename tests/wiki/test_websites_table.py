@@ -2,7 +2,7 @@ import allure
 import pytest
 from assertpy import assert_that, soft_assertions
 
-from models.popular_website_model import PopularWebsite
+from models.wiki.popular_website_model import PopularWebsite
 
 
 class TestWebsitesTable:

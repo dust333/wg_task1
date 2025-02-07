@@ -2,7 +2,7 @@ from typing import Optional
 
 import requests
 
-from clients.http_client import BaseHTTPClient
+from clients.base_http_client import BaseHTTPClient
 from config import WIKI_URL
 
 

@@ -2,9 +2,9 @@ from typing import Callable
 
 import pytest
 
-from clients.wiki_http_client import WikiHTTPClient
-from models.popular_website_model import (Backend, Database, Frontend,
-                                          Popularity, PopularWebsite)
+from clients.wiki.wiki_http_client import WikiHTTPClient
+from models.wiki.popular_website_model import (Backend, Database, Frontend,
+                                               Popularity, PopularWebsite)
 from utils.table_parser import TableParser
 
 
